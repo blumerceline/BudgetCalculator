@@ -10,15 +10,15 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-  <h1 class="title"><i class="fa fa-money" style="font-size:36px"></i>      Budget Calculator</h1>
+  <h1 class="title">Budget Calculator</h1>
 <div id="container">
   <div class="row">
     <div class="col-lg-4 col-sm-8 leftside">
   <form>
-    <p>How much was your income this week?</p>
+    <p>How much was your total income this month?</p>
     <input id="incomeamount" type="text" placeholder="Income in dollars">
 
-    <p>What percentage do you want to save in your bills account?</p>
+    <p>What percentage do you need to spend on fixed expenses (i.e. rent, insurance)?</p>
     <input id="billspercent" type="text" placeholder="Bills account">
      <p>What percentage do you want to save in your emergency account?</p>
     <input id="emergpercent" type="text" placeholder="Emergency account">
@@ -32,7 +32,7 @@
     <div class="col-lg-4 col-sm-8 rightside">
 <div id="calculatedvalues">
   <h4>Calculated Budget Amounts</h4>
-  <p>The amount to save for bills is</p><h3 id="displaybills">0.00</h3>
+  <p>The amount to save for fixed expenses is</p><h3 id="displaybills">0.00</h3>
   <p>The amount to save for emergencies is</p><h3 id="displayemergencies">0.00</h3>
    <p>The amount to put aside for spending is</p><h3 id="displayspending">0.00</h3>
   </div>

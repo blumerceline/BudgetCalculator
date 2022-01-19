@@ -5,7 +5,7 @@ document{
 
 body{
   text-align:center;
-  background-image: url("budgetbg.JPG");
+  background-image: url("back.PNG");
 }
 
 .title{
@@ -37,6 +37,8 @@ button{
   padding-left: 20px;
   padding-right: 20px;
   margin: 20px;
+  background-color: #30475e;
+  color: white;
 
   border-radius: 20px;
 }
